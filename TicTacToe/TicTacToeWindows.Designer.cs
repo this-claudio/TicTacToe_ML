@@ -110,6 +110,7 @@ namespace TicTacToe
         /// </summary>
         public void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TicTacToe));
             this.AreaTabuleiro = new System.Windows.Forms.Panel();
             this.ButtonIniciar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -166,7 +167,6 @@ namespace TicTacToe
             "Facil",
             "Medio",
             "Dificil"});
-            this.EscolhaNivel.SelectedIndex = 1;
             this.EscolhaNivel.Location = new System.Drawing.Point(117, 66);
             this.EscolhaNivel.Name = "EscolhaNivel";
             this.EscolhaNivel.Size = new System.Drawing.Size(95, 23);
@@ -183,6 +183,7 @@ namespace TicTacToe
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ButtonIniciar);
             this.Controls.Add(this.AreaTabuleiro);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TicTacToe";
             this.Text = "TicTacToe";
             this.panel1.ResumeLayout(false);

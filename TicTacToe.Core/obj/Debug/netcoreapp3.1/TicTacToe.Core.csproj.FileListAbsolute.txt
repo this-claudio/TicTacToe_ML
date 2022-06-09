@@ -7,4 +7,3 @@ C:\Users\silvacla\Google Drive\Linguagens e Projetos\Projetos\C#\TicTacToe\TicTa
 C:\Users\silvacla\Google Drive\Linguagens e Projetos\Projetos\C#\TicTacToe\TicTacToe.Core\obj\Debug\netcoreapp3.1\TicTacToe.Core.csproj.CoreCompileInputs.cache
 C:\Users\silvacla\Google Drive\Linguagens e Projetos\Projetos\C#\TicTacToe\TicTacToe.Core\obj\Debug\netcoreapp3.1\TicTacToe.Core.dll
 C:\Users\silvacla\Google Drive\Linguagens e Projetos\Projetos\C#\TicTacToe\TicTacToe.Core\obj\Debug\netcoreapp3.1\TicTacToe.Core.pdb
-C:\Users\silvacla\Google Drive\Linguagens e Projetos\Projetos\C#\TicTacToe\TicTacToe.Core\obj\Debug\netcoreapp3.1\TicTacToe.Core.csproj.AssemblyReference.cache

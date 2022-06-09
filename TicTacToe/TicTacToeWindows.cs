@@ -30,8 +30,9 @@ namespace TicTacToe
             this.nZeroX = 0;
             this.nZeroY = 0;
             InitializeComponent();
+            this.EscolhaNivel.SelectedItem = "Medio";
+            this.Title.Text = "Jogo Pausado";
             InitializeGame();
-
         }
 
         private void StartTimer()
@@ -138,10 +139,14 @@ namespace TicTacToe
 
         private void EscolhaNivel_SelectedIndexChanged(object sender, EventArgs e)
         {
-            nTurno = (int)Peao.O;
-            Tab3x3.Clear();
-            LimparTabuleiro();
-            InitializeGame();
+            try
+            {
+                nTurno = (int)Peao.O;
+                Tab3x3.Clear();
+                LimparTabuleiro();
+                InitializeGame();
+            }
+            catch(Exception error) { }
         }
     }
 }
