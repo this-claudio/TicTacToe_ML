@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TicTacToe.View/1.0.0": {
+        "dependencies": {
+          "TicTacToe.Core": "1.0.0",
+          "TicTacToe.HumanPlayer": "1.0.0",
+          "TicTacToe.MachinePlayer": "1.0.0"
+        },
+        "runtime": {
+          "TicTacToe.View.dll": {}
+        }
+      },
+      "TicTacToe.Core/1.0.0": {
+        "runtime": {
+          "TicTacToe.Core.dll": {}
+        }
+      },
+      "TicTacToe.HumanPlayer/1.0.0": {
+        "dependencies": {
+          "TicTacToe.Core": "1.0.0"
+        },
+        "runtime": {
+          "TicTacToe.HumanPlayer.dll": {}
+        }
+      },
+      "TicTacToe.MachinePlayer/1.0.0": {
+        "dependencies": {
+          "TicTacToe.Core": "1.0.0"
+        },
+        "runtime": {
+          "TicTacToe.MachinePlayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TicTacToe.View/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicTacToe.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicTacToe.HumanPlayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicTacToe.MachinePlayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

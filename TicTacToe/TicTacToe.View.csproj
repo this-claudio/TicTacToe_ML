@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>warnings</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HumanPlayer\TicTacToe.HumanPlayer.csproj" />
+    <ProjectReference Include="..\TicTacToe.Core\TicTacToe.Core.csproj" />
+    <ProjectReference Include="..\TicTacToe.MachinePlayer\TicTacToe.MachinePlayer.csproj" />
+  </ItemGroup>
+
+</Project>
